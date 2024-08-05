@@ -1,15 +1,4 @@
-<?php
-// Caminho para o arquivo de texto
-$arquivoLink = '../painel/link.txt';
 
-// Lê o conteúdo do arquivo
-$conteudoLink = file_get_contents($arquivoLink);
-
-// Verifica se o arquivo foi lido com sucesso
-if ($conteudoLink === false) {
-    $conteudoLink = '#'; // Fallback caso o arquivo não seja lido corretamente
-}
-?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
